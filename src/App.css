@@ -1,0 +1,60 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 54px;
+}
+.logo-title{
+    float: left;
+}
+.App-header {
+    background-color: #222;
+    height: 54px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+    float: right;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.video-container{
+    -o-object-fit: initial;
+    object-fit: initial;
+    float: left;
+    margin-left: 10%;
+    padding: 10px;
+    border: 1px solid #61625d;
+    width: 1024px;
+    height: 470px;
+    border-radius: 2px;
+    background: #000000;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #313131),color-stop(1, #000000));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#313131), to(#000000));
+    background-image: -webkit-linear-gradient(#313131, #000000);
+    background-image: -o-linear-gradient(#313131, #000000);
+    background-image: linear-gradient(#313131, #000000);
+    -webkit-box-shadow: inset 0 5px 35px #535353;
+    box-shadow: inset 0 5px 12px #535353;
+}
+
+.loggedin-user{
+    float: right;
+    margin-top: 10px;
+}

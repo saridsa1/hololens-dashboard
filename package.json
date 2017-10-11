@@ -1,0 +1,33 @@
+{
+  "name": "hololens-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "firebase-admin": "^5.4.1",
+    "https": "^1.0.0",
+    "office-ui-fabric-react": "^5.2.1",
+    "passport-restify": "^1.0.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14",
+    "react-sticky": "^6.0.1",
+    "react-videojs": "0.0.3",
+    "redis": "^2.8.0",
+    "redux": "^3.7.2",
+    "restify": "^6.0.1",
+    "restify-cors": "^1.0.1",
+    "restify-errors": "^5.0.0",
+    "restify-memory-session": "0.0.6",
+    "restify-plugins": "^1.6.0",
+    "restify-session": "^1.1.1",
+    "serve-static-restify": "^2.0.0",
+    "video-react": "^0.8.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
